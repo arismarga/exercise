@@ -50,7 +50,7 @@ function createNewField(){
     addNewFieldOnDiv.appendChild(newField);
     lastPosition.after(addNewFieldOnDiv);
 
-} 
+}
 
 addNewField.addEventListener("click", function(){
     createNewField();
